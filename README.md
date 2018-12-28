@@ -1,2 +1,0 @@
-# kita.tesla
-only html
