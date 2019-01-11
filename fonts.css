@@ -1,5 +1,110 @@
 @font-face {
-	font-family: 'Montserrat';
-	src: url('MontserratAlternates-Bold.otf');
-	font-weight: bold;
+	font-family: 'Montserrat';			
+	src: url('../tesla/fonts/Montserrat-Regular.otf');
+	font-style: normal;
+  	font-weight: normal;
 }
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Thin.otf');
+	font-style: normal;
+  	font-weight: 100;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-ExtraLight.otf');
+	font-style: normal;
+  	font-weight: 200;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Light.otf');
+	font-style: normal;
+  	font-weight: 300;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Medium.otf');
+	font-style: normal;
+  	font-weight: 500;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-SemiBold.otf');
+	font-style: normal;
+  	font-weight: 600;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Bold.otf');
+	font-style: normal;
+  	font-weight: bold;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-ExtraBold.otf');
+	font-style: normal;
+  	font-weight: 800;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Black.otf');
+	font-style: normal;
+  	font-weight: 900;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-ThinItalic.otf');
+	font-style: italic;
+  	font-weight: 100;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-ExtraLightItalic.otf');
+	font-style: italic;
+  	font-weight: 200;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-LightItalic.otf');
+	font-style: italic;
+  	font-weight: 300;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-Italic.otf');
+	font-style: italic;
+  	font-weight: normal;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-MediumItalic.otf');
+	font-style: italic;
+  	font-weight: 500;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-SemiBoldItalic.otf');
+	font-style: italic;
+  	font-weight: 600;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-BoldItalic.otf');
+	font-style: italic;
+  	font-weight: bold;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-BlackItalic.otf');
+	font-style: italic;
+  	font-weight: 900;	
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../tesla/fonts/Montserrat-ExtraBoldItalic.otf');
+	font-style: italic;
+  	font-weight: 800;	
+}
+
+
