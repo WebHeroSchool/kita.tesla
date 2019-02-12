@@ -2,37 +2,74 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>Document</title>
 	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="styles.css">	
 </head>
 <body>
 	<header class="header">
-		<img src="headlogo.png" class="header__logo" alt="TESLA">
+		<img src="images/headlogo.png" class="header__logo" alt="TESLA">
 		<nav class="header-nav">			
-			<a href="#" class="header-nav__link">Model S</a>
-			<a href="#" class="header-nav__link">Model X</a>
-			<a href="#" class="header-nav__link">Model 3</a>
-			<a href="#" class="header-nav__link">Roadster</a>
-			<a href="#" class="header-nav__link">Energy</a>
+			<a href="#" class="header-nav__link" id="link__model-s">Model S</a>
+			<a href="#" class="header-nav__link" id="link__model-x">Model X</a>
+			<a href="#" class="header-nav__link" id="link__model-3">Model 3</a>
+			<a href="#" class="header-nav__link" id="link__roadster">Roadster</a>
+			<a href="#" class="header-nav__link" id="link__energy">Energy</a>
 		</nav>
 		<div class="header-actions">
-			<a href="#" class="header-actions__link">Магазин</a>
-			<a href="#" class="header-actions__link">Войти</a>
-			<div class="header-actions__hamburger">Hamburger</div>
+			<a href="#" class="header-actions__link" id="link-shop">Магазин</a>
+			<a href="#" class="header-actions__link" id="link-login">Войти</a>
+			<div class="header-actions__hamburger" id="hamburger"></div>
 		</div>
 	</header>
 	<main class="main">
 		<h1 class="main__title">Model S</h1>
 		<h2 class="main__subtitle">Добро пожаловать в будущее!</h2>
-		<img src="logo1.png" alt="none" class="main__image">
+		<img src="images/teslawm.png" alt="none" class="main__image-logo">
+		<img src="images/car1floor2.png" alt="none" class="main__image-car">
 		<div class="main-list">
-			<p class="main-list__item">2,7 сек <br><span class="main-list__item-span">0-100 км/час</span></p>
-			<p class="main-list__item">632 км <br><span class="main-list__item-span">запас хода</span></p>
-			<a href="#" class="main-list__link-testdrive">тест драйв</a>
-			<a href="#" class="main-list__link-buy">заказать</a>
+			<div class="main-list__characteristic">
+				<div class="main-list__speed">
+					<img src="images/vector.png" alt="none" class="main-list__image-vector">
+					<img src="images/ellipse.png" alt="none" class="main-list__image-ellipse">
+					<img src="images/vector1.png" alt="none" class="main-list__image-vector1">
+				</div>
+				<div class="main-list__item-speed">
+					<span class="main-list__speed-number">2,7</span>
+					<span class="main-list__speed-word"> сек<br></span>
+					<span class="main-list__speed-char">0-100 км/час</span>
+				</div>
+				<div class="main-list__track">
+					<img src="images/vector2.png" alt="none" class="main-list__image-vector2">
+					<img src="images/ellipse1.png" alt="none" class="main-list__ellipse1">
+					<img src="images/ellipse2.png" alt="none" class="main-list__ellipse2">
+					<img src="images/ellipse3.png" alt="none" class="main-list__ellipse3">
+					<img src="images/ellipse4.png" alt="none" class="main-list__ellipse4">
+				</div>
+				<div class="main-list__item-length">
+					<span class="main-list__length-number">632</span>
+					<span class="main-list__length-word"> км<br></span>
+					<span class="main-list__length-char">запас хода</span>
+				</div>
+			</div>
+			<div class="main-list__marketing">
+				<div class="main-list__testdrive-option">
+					<div class="main-list__helm">
+						<img src="images/vector3.png" alt="none" class="main-list__vector3">
+						<img src="images/vector4.png" alt="none" class="main-list__vector4">
+						<img src="images/vector5.png" alt="none" class="main-list__vector5">
+					</div>	
+					<a href="#" class="main-list__link-testdrive">тест драйв</a>
+				</div>
+				<div class="main-list__order-option">
+					<button class="main-list__link-buy">заказать</button>
+				</div>
+			</div>
 		</div>
-		<a href="#" class="main__link-nextfloor">Галочка вниз</a>
+		<div class="main__link-wrap">
+			<a href="#" class="main__link-nextfloor"></a>
+		</div>
 	</main>
 	<article class="article">
 		<h2 class="article__head">Model S</h2>
